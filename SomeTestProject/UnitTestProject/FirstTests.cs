@@ -21,5 +21,11 @@ namespace UnitTestProject
         {
             Assert.IsFalse(false);
         }
+
+        [Test]
+        public void FailedTest()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
